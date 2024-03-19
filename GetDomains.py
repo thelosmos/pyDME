@@ -72,7 +72,7 @@ if zonesResponse.status == 200:
                     csvWriter.writerow([zoneName, record['name'], record['type'], record['value']])
                     csvWriter.writerows(tableData)
                 print(tbl.tabulate(tableData, headers=['Zone', 'Record Name', 'Type', 'Value']))
-                time.sleep(.5)
+                time.sleep(2)
 
         else:
              print(f"Failed to retrieve records for zone {zoneName}.")
