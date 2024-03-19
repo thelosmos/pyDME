@@ -1,0 +1,8 @@
+secrets_file.py
+*__pycache__*
+*.private.*
+*.private
+*venv*
+*.log
+*Results*
+*results*
