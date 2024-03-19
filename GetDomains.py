@@ -78,13 +78,3 @@ if zonesResponse.status == 200:
              print(f"Failed to retrieve records for zone {zoneName}.")
 else:
     print(f"Failed to retrieve zones.")
-
-        
-# # Check if response is JSON and log formatted JSON
-# try:
-#     json_response = json.loads(data.decode("utf-8"))
-#     formatted_json = json.dumps(json_response, indent=4)
-#     print(formatted_json)
-# except json.JSONDecodeError:
-#     # If the response is not JSON, print as is.
-#     print(data.decode("utf-8"))
